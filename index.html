@@ -47,30 +47,30 @@
     .pay{margin-top:10px;font-size:13.5px}.pay ul{margin:4px 0 0;padding-left:20px}
     </style></head><body>
 <h1>Satori → Darwinbox · Invoicing Dashboard</h1>
-<div class="sub">As of 16 Sep 2026 · source: data/ledger.json · update via <b>/satori-invoice</b> or tell Claude</div>
+<div class="sub">As of 17 Sep 2026 · source: data/ledger.json · update via <b>/satori-invoice</b> or tell Claude</div>
 
 <div class="cards"><div class="card clickable" id="c0" onclick="cp('p0')">
-        <div class="k">Outstanding AR (invoiced, unpaid) <span class="caret">▸</span></div><div class="v"><span class="red-t">₹36,63,916.90</span></div><div class="d">8 invoices open</div></div><div class="card clickable" id="c1" onclick="cp('p1')">
+        <div class="k">Outstanding AR (invoiced, unpaid) <span class="caret">▸</span></div><div class="v"><span class="red-t">₹33,62,416.90</span></div><div class="d">8 invoices open</div></div><div class="card clickable" id="c1" onclick="cp('p1')">
         <div class="k">Ready to invoice (work done) <span class="caret">▸</span></div><div class="v"><span class="amber-t">₹0</span></div><div class="d">+ May'26 staff aug hours TBD</div></div><div class="card clickable" id="c2" onclick="cp('p2')">
         <div class="k">Future milestones (work pending) <span class="caret">▸</span></div><div class="v"><span class="blue-t">₹38,50,000</span></div><div class="d">6 milestones</div></div><div class="card clickable" id="c3" onclick="cp('p3')">
-        <div class="k">Received FY 2026-27 <span class="caret">▸</span></div><div class="v"><span class="green-t">₹80,28,123.20</span></div><div class="d">partial on 001 — to reconcile</div></div><div class="card clickable" id="c4" onclick="cp('p4')">
-        <div class="k">Oldest unpaid invoice <span class="caret">▸</span></div><div class="v">167 days</div><div class="d">2026-27/001 · March 2026</div></div></div><div class="panel" id="p0" style="display:none"><table class="inner"><thead><tr><th>Invoice</th><th>Period</th><th>Billed</th><th>Outstanding</th><th>Days</th><th>Blocker</th></tr></thead><tbody><tr><td><b>2026-27/001</b></td><td>March 2026</td>
+        <div class="k">Received FY 2026-27 <span class="caret">▸</span></div><div class="v"><span class="green-t">₹83,29,623.20</span></div><div class="d">partial on 001 — to reconcile</div></div><div class="card clickable" id="c4" onclick="cp('p4')">
+        <div class="k">Oldest unpaid invoice <span class="caret">▸</span></div><div class="v">168 days</div><div class="d">2026-27/001 · March 2026</div></div></div><div class="panel" id="p0" style="display:none"><table class="inner"><thead><tr><th>Invoice</th><th>Period</th><th>Billed</th><th>Outstanding</th><th>Days</th><th>Blocker</th></tr></thead><tbody><tr><td><b>2026-27/001</b></td><td>March 2026</td>
         <td class="num">₹15,43,241.60</td><td class="num"><b>₹0.40</b></td>
-        <td class="num">167</td><td class="small">—</td></tr><tr><td><b>2026-27/002</b></td><td>April 2026</td>
+        <td class="num">168</td><td class="small">—</td></tr><tr><td><b>2026-27/002</b></td><td>April 2026</td>
         <td class="num">₹15,80,974.50</td><td class="num"><b>₹8,65,974.50</b></td>
-        <td class="num">134</td><td class="small">₹79,000 shortfall received (week of Jun 15, verbal — bank confirmation pending). ₹1,59,432 non-ELR balance pending Soham/Vineet release. ₹7,06,542.50 ELR hold (Ranaq + Barnamoy) pending ELR go-live.</td></tr><tr><td><b>2026-27/003</b></td><td>March 2026 (balance of 001)</td>
-        <td class="num">₹2,20,500</td><td class="num"><b>₹2,20,500</b></td>
-        <td class="num">128</td><td class="small">Same as 002 — Vineet tying to ELR go-live (disputed); Kalyan to process; Shashank approval outstanding.</td></tr><tr><td><b>2026-27/005</b></td><td>May 2026</td>
+        <td class="num">135</td><td class="small">₹79,000 shortfall received (week of Jun 15, verbal — bank confirmation pending). ₹1,59,432 non-ELR balance pending Soham/Vineet release. ₹7,06,542.50 ELR hold (Ranaq + Barnamoy) pending ELR go-live.</td></tr><tr><td><b>2026-27/003</b></td><td>March 2026 (balance of 001)</td>
+        <td class="num">₹2,20,500</td><td class="num"><b>₹2,04,000</b></td>
+        <td class="num">129</td><td class="small">Same as 002 — Vineet tying to ELR go-live (disputed); Kalyan to process; Shashank approval outstanding.</td></tr><tr><td><b>2026-27/005</b></td><td>May 2026</td>
         <td class="num">₹5,07,000</td><td class="num"><b>₹5,07,000</b></td>
-        <td class="num">98</td><td class="small">—</td></tr><tr><td><b>2026-27/007</b></td><td>May 2026</td>
+        <td class="num">99</td><td class="small">—</td></tr><tr><td><b>2026-27/007</b></td><td>May 2026</td>
         <td class="num">₹6,66,692</td><td class="num"><b>₹6,66,692</b></td>
-        <td class="num">75</td><td class="small">ELR hold has historically applied to Ranaq + Barnamoy (see INV 002 discrepancies) — invoice raised despite that; payment release unconfirmed.</td></tr><tr><td><b>2026-27/008</b></td><td>June 2026</td>
-        <td class="num">₹5,79,750</td><td class="num"><b>₹5,79,750</b></td>
-        <td class="num">72</td><td class="small">—</td></tr><tr><td><b>2026-27/011</b></td><td>Milestone: Phase 2 Go Live</td>
+        <td class="num">76</td><td class="small">ELR hold has historically applied to Ranaq + Barnamoy (see INV 002 discrepancies) — invoice raised despite that; payment release unconfirmed.</td></tr><tr><td><b>2026-27/008</b></td><td>June 2026</td>
+        <td class="num">₹5,79,750</td><td class="num"><b>₹2,94,750</b></td>
+        <td class="num">73</td><td class="small">—</td></tr><tr><td><b>2026-27/011</b></td><td>Milestone: Phase 2 Go Live</td>
         <td class="num">₹5,00,000</td><td class="num"><b>₹5,00,000</b></td>
-        <td class="num">49</td><td class="small">Kalyan committed Sep 15 to close this &#x27;between today and tomorrow&#x27; (Sep 15-16), citing his team being on an offsite the prior week as the reason for the delay. Both underlying collection-hold conditions (DB Finance receipt + Moder&#x27;s own payment advice) were already confirmed satisfied as of Sep 9. No bank credit yet.</td></tr><tr><td><b>2026-27/013</b></td><td>July 2026</td>
+        <td class="num">50</td><td class="small">Kalyan committed Sep 15 to close this &#x27;between today and tomorrow&#x27; (Sep 15-16), citing his team being on an offsite the prior week as the reason for the delay. Both underlying collection-hold conditions (DB Finance receipt + Moder&#x27;s own payment advice) were already confirmed satisfied as of Sep 9. No bank credit yet.</td></tr><tr><td><b>2026-27/013</b></td><td>July 2026</td>
         <td class="num">₹3,24,000</td><td class="num"><b>₹3,24,000</b></td>
-        <td class="num">42</td><td class="small">—</td></tr></tbody></table><div class="pay">Of this, <b>₹1,59,432</b> is approved non-ELR balance chaseable now (002, beyond the paid tranche); ELR-held amounts excluded.</div></div><div class="panel" id="p1" style="display:none"><table class="inner"><thead><tr><th>Project</th><th>Milestone</th><th>Amount</th><th>Work completed</th><th>Status</th></tr></thead><tbody></tbody></table></div><div class="panel" id="p2" style="display:none"><table class="inner"><thead><tr><th>Project</th><th>Milestone</th><th>%</th><th>Amount</th><th>Expected</th></tr></thead><tbody><tr><td>Table Group (Philippines)</td><td>BPM Sign-Off</td>
+        <td class="num">43</td><td class="small">—</td></tr></tbody></table><div class="pay">Of this, <b>₹1,59,432</b> is approved non-ELR balance chaseable now (002, beyond the paid tranche); ELR-held amounts excluded.</div></div><div class="panel" id="p1" style="display:none"><table class="inner"><thead><tr><th>Project</th><th>Milestone</th><th>Amount</th><th>Work completed</th><th>Status</th></tr></thead><tbody></tbody></table></div><div class="panel" id="p2" style="display:none"><table class="inner"><thead><tr><th>Project</th><th>Milestone</th><th>%</th><th>Amount</th><th>Expected</th></tr></thead><tbody><tr><td>Table Group (Philippines)</td><td>BPM Sign-Off</td>
         <td class="num">25%</td>
         <td class="num">₹12,00,000</td><td>TBD</td></tr><tr><td>Table Group (Philippines)</td><td>UAT Sign-Off</td>
         <td class="num">25%</td>
@@ -100,7 +100,10 @@
                 <td class="small">Rupali was absent for 24 hours. Not chaseable. Written off. (Ranaq, 15 Jun)</td></tr><tr><td><b>2026-27/002</b></td><td>April 2026</td>
                 <td>15 Jun 2026</td>
                 <td class="num"><b>₹79,000</b></td><td>Darwinbox disbursement — shortfall settlement (committed by Kalyan)</td>
-                <td class="small">₹79,000 shortfall from first tranche (Jun 5 Vineet agreement) received week of Jun 15. Confirmed by Ranaq 22 Jun; bank/UTR not yet confirmed.</td></tr><tr><td><b>2026-27/004</b></td><td>Milestones: contract signing, BPM signoff, UAT signoff</td>
+                <td class="small">₹79,000 shortfall from first tranche (Jun 5 Vineet agreement) received week of Jun 15. Confirmed by Ranaq 22 Jun; bank/UTR not yet confirmed.</td></tr><tr><td><b>2026-27/003</b></td><td>March 2026 (balance of 001)</td>
+                <td>date TBC</td>
+                <td class="num"><b>₹16,500</b> ⚠</td><td>Payment against Nancy Phogat line item (11h CtrlS hours)</td>
+                <td class="small">Confirmed by Ranaq 17 Sep 2026 — covers only Nancy portion of this invoice; Rupali portion (₹2,04,000) still outstanding. Bank/UTR not yet confirmed.</td></tr><tr><td><b>2026-27/004</b></td><td>Milestones: contract signing, BPM signoff, UAT signoff</td>
                 <td>10 Jun 2026</td>
                 <td class="num"><b>₹6,00,000</b></td><td>Darwinbox disbursement — batch with INV 002</td>
                 <td class="small">Partial payment. Balance ₹11,50,000 outstanding. No TDS deducted on this credit (confirmed by Ranaq 11 Jun).</td></tr><tr><td><b>2026-27/004</b></td><td>Milestones: contract signing, BPM signoff, UAT signoff</td>
@@ -115,7 +118,10 @@
                 <td class="small">DB AP system (NetSuite) confirms Bill 2026-27/006 Paid In Full. Net amount after presumed 10% TDS withholding (gross 20,92,500 -&gt; net 18,83,250).</td></tr><tr><td><b>2026-27/006</b></td><td>Phase 1 milestones: Contract Signing, BPM Sign-Off, UAT Sign-Off</td>
                 <td>date TBC</td>
                 <td class="num"><b>₹2,09,250</b></td><td>TDS 10% withheld by Darwinbox</td>
-                <td class="small">Tax credit, not cash — confirmed by Ranaq 6 Jul. Together with ₹18,83,250 net, fully accounts for the ₹20,92,500 invoice.</td></tr><tr><td><b>2026-27/009</b></td><td>Final milestone: End of Hypercare (25%)</td>
+                <td class="small">Tax credit, not cash — confirmed by Ranaq 6 Jul. Together with ₹18,83,250 net, fully accounts for the ₹20,92,500 invoice.</td></tr><tr><td><b>2026-27/008</b></td><td>June 2026</td>
+                <td>date TBC</td>
+                <td class="num"><b>₹2,85,000</b> ⚠</td><td>Payment against Nancy Phogat line item (190h June 2026)</td>
+                <td class="small">Confirmed by Ranaq 17 Sep 2026 — covers only Nancy portion of this invoice; Rupali portion (₹2,94,750) still outstanding. Bank/UTR not yet confirmed.</td></tr><tr><td><b>2026-27/009</b></td><td>Final milestone: End of Hypercare (25%)</td>
                 <td>date TBC</td>
                 <td class="num"><b>₹6,27,750</b></td><td>Bank credit — INV 009 final KFK tranche, exact date/UTR TBC</td>
                 <td class="small">Net cash received after 10% EDS withheld by Darwinbox. Confirmed by Ranaq 31 Aug — full invoice amount now paid.</td></tr><tr><td><b>2026-27/009</b></td><td>Final milestone: End of Hypercare (25%)</td>
@@ -129,25 +135,25 @@
                 <td class="num"><b>₹1,45,038.20</b></td><td>TDS 10% withheld by Darwinbox</td>
                 <td class="small">Tax credit (Form 26AS), not cash. Confirmed by Ranaq 17 Aug — netted, invoice treated as fully cleared.</td></tr></tbody></table></div><div class="panel" id="p4" style="display:none"><table class="inner"><thead><tr><th>Invoice</th><th>Period</th><th>Invoice date</th><th>Outstanding</th><th>Days</th><th>Next action</th></tr></thead><tbody><tr><td><b>2026-27/001</b></td><td>March 2026</td>
             <td>02 Apr 2026</td><td class="num"><b>₹0.40</b></td>
-            <td class="num">167</td><td class="small"><b>Verify ₹1,27,180 TDS in 26AS (Form 26AS). No cash AR remaining on 001 — residual written off.</b></td></tr></tbody></table><div class="pay muted">4 follow-ups logged — full timeline in the Follow-up section below.</div></div>
+            <td class="num">168</td><td class="small"><b>Verify ₹1,27,180 TDS in 26AS (Form 26AS). No cash AR remaining on 001 — residual written off.</b></td></tr></tbody></table><div class="pay muted">4 follow-ups logged — full timeline in the Follow-up section below.</div></div>
 
 <h2>⚡ Signals</h2>
-<div class="sig sig-red">2026-27/001 unpaid 167 days — ₹0.40 (March 2026)</div><div class="sig sig-red">2026-27/002 unpaid 134 days — ₹8,65,974.50 (April 2026)</div><div class="sig sig-red">2026-27/003 unpaid 128 days — ₹2,20,500 (March 2026 (balance of 001))</div><div class="sig sig-red">2026-27/005 unpaid 98 days — ₹5,07,000 (May 2026)</div><div class="sig sig-red">2026-27/007 unpaid 75 days — ₹6,66,692 (May 2026)</div><div class="sig sig-red">2026-27/008 unpaid 72 days — ₹5,79,750 (June 2026)</div><div class="sig sig-red">2026-27/011 unpaid 49 days — ₹5,00,000 (Milestone: Phase 2 Go Live)</div><div class="sig sig-blue">2026-27/002: ₹1,59,432 approved non-ELR balance (beyond paid tranche) — chase release; ELR portion held separately</div>
+<div class="sig sig-red">2026-27/001 unpaid 168 days — ₹0.40 (March 2026)</div><div class="sig sig-red">2026-27/002 unpaid 135 days — ₹8,65,974.50 (April 2026)</div><div class="sig sig-red">2026-27/003 unpaid 129 days — ₹2,04,000 (March 2026 (balance of 001))</div><div class="sig sig-red">2026-27/005 unpaid 99 days — ₹5,07,000 (May 2026)</div><div class="sig sig-red">2026-27/007 unpaid 76 days — ₹6,66,692 (May 2026)</div><div class="sig sig-red">2026-27/008 unpaid 73 days — ₹2,94,750 (June 2026)</div><div class="sig sig-red">2026-27/011 unpaid 50 days — ₹5,00,000 (Milestone: Phase 2 Go Live)</div><div class="sig sig-blue">2026-27/002: ₹1,59,432 approved non-ELR balance (beyond paid tranche) — chase release; ELR portion held separately</div><div class="sig sig-amber">2026-27/003 partial payment unreconciled — confirm exact amount, date & UTR</div><div class="sig sig-amber">2026-27/008 partial payment unreconciled — confirm exact amount, date & UTR</div>
 
 <div class="grid2">
 <div><h2>Aging (outstanding ₹ by invoice age)</h2><div class="bar-row"><div class="bar-label">0–30 days</div>
         <div class="bar-track"><div class="bar" style="width:2%;background:#4caf7d"></div></div>
         <div class="bar-val">₹0.00L</div></div><div class="bar-row"><div class="bar-label">31–60 days</div>
-        <div class="bar-track"><div class="bar" style="width:51%;background:#e2b93b"></div></div>
+        <div class="bar-track"><div class="bar" style="width:52%;background:#e2b93b"></div></div>
         <div class="bar-val">₹8.24L</div></div><div class="bar-row"><div class="bar-label">61–90 days</div>
-        <div class="bar-track"><div class="bar" style="width:78%;background:#e07b39"></div></div>
-        <div class="bar-val">₹12.46L</div></div><div class="bar-row"><div class="bar-label">90+ days</div>
+        <div class="bar-track"><div class="bar" style="width:60%;background:#e07b39"></div></div>
+        <div class="bar-val">₹9.61L</div></div><div class="bar-row"><div class="bar-label">90+ days</div>
         <div class="bar-track"><div class="bar" style="width:100%;background:#d64545"></div></div>
-        <div class="bar-val">₹15.93L</div></div></div>
+        <div class="bar-val">₹15.77L</div></div></div>
 <div><h2>Total expected from Darwinbox</h2>
 <div class="cards" style="grid-template-columns:1fr">
-<div class="card"><div class="k">Outstanding + ready to invoice</div><div class="v">₹36,63,916.90</div>
-<div class="d">…rising to ₹75,13,916.90 once pending milestones complete</div></div>
+<div class="card"><div class="k">Outstanding + ready to invoice</div><div class="v">₹33,62,416.90</div>
+<div class="d">…rising to ₹72,12,416.90 once pending milestones complete</div></div>
 </div></div>
 </div>
 
@@ -160,7 +166,7 @@
         <td class="num">₹15,43,241.60</td>
         <td class="num">₹13,22,741.20</td>
         <td class="num"><b>₹0.40</b></td>
-        <td class="num">167</td>
+        <td class="num">168</td>
         <td><span class="chip chip-green">PAID</span></td>
         <td class="small">—</td>
         <td class="small"><b>Verify ₹1,27,180 TDS in 26AS (Form 26AS). No cash AR remaining on 001 — residual written off.</b></td>
@@ -237,7 +243,7 @@
         <td class="num">₹15,80,974.50</td>
         <td class="num">₹7,15,000</td>
         <td class="num"><b>₹8,65,974.50</b></td>
-        <td class="num">134</td>
+        <td class="num">135</td>
         <td><span class="chip chip-amber">PARTIAL</span></td>
         <td class="small">₹79,000 shortfall received (week of Jun 15, verbal — bank confirmation pending). ₹1,59,432 non-ELR balance pending Soham/Vineet release. ₹7,06,542.50 ELR hold (Ranaq + Barnamoy) pending ELR go-live.</td>
         <td class="small"><b>1. Confirm ₹79,000 shortfall receipt against bank statement/UTR. 2. Chase Soham/Vineet for ₹1,59,432 non-ELR balance (Animesh ₹1,32,000 + Nancy ₹15,000 + Zuha ₹22,360 — Rupali ₹36,000 written off). 3. ELR hold ₹7,06,542.50 — track separately pending ELR go-live.</b></td>
@@ -312,46 +318,46 @@
         <td>March 2026 (balance of 001)<br><span class="muted">Staff augmentation — multiple DB projects (Ranaq &amp; Barnamoy on MMI ELR)</span></td>
         <td>11 May 2026</td>
         <td class="num">₹2,20,500</td>
-        <td class="num">—</td>
-        <td class="num"><b>₹2,20,500</b></td>
-        <td class="num">128</td>
-        <td><span class="chip chip-red">UNPAID</span></td>
+        <td class="num">₹16,500</td>
+        <td class="num"><b>₹2,04,000</b></td>
+        <td class="num">129</td>
+        <td><span class="chip chip-amber">PARTIAL</span></td>
         <td class="small">Same as 002 — Vineet tying to ELR go-live (disputed); Kalyan to process; Shashank approval outstanding.</td>
         <td class="small"><b>Bundle with 002 escalation — March work, now 3 months old.</b></td>
         </tr>
-        <tr id="d2" class="drow" style="display:none"><td colspan="10"><div class="dt"><table class="inner"><thead><tr><th>Resource</th><th>Hrs billed</th><th>Rate</th><th>₹ billed</th><th>Hrs approved</th><th>₹ approved</th><th>Hrs paid</th><th>₹ paid</th><th>₹ approved unpaid</th><th>Status / reason</th></tr></thead><tbody><tr class="short">
+        <tr id="d2" class="drow" style="display:none"><td colspan="10"><div class="dt"><table class="inner"><thead><tr><th>Resource</th><th>Hrs billed</th><th>Rate</th><th>₹ billed</th><th>Hrs approved</th><th>₹ approved</th><th>Hrs paid</th><th>₹ paid</th><th>₹ approved unpaid</th><th>Status / reason</th></tr></thead><tbody><tr class="ok">
                 <td><b>Rupali Papde</b></td>
                 <td class="num">136</td>
                 <td class="num">₹1,500</td>
                 <td class="num">₹2,04,000</td>
                 <td class="num">136</td>
                 <td class="num">₹2,04,000</td>
-                <td class="num">0</td>
+                <td class="num">136</td>
+                <td class="num">₹2,04,000</td>
                 <td class="num">—</td>
-                <td class="num"><b>₹2,04,000</b></td>
-                <td class="small">✓ fully approved</td></tr><tr class="short">
+                <td class="small">✓ fully approved</td></tr><tr class="ok">
                 <td><b>Nancy Phogat</b></td>
                 <td class="num">11</td>
                 <td class="num">₹1,500</td>
                 <td class="num">₹16,500</td>
                 <td class="num">11</td>
                 <td class="num">₹16,500</td>
-                <td class="num">0</td>
+                <td class="num">11</td>
+                <td class="num">₹16,500</td>
                 <td class="num">—</td>
-                <td class="num"><b>₹16,500</b></td>
                 <td class="small">✓ fully approved</td></tr><tr class="tot"><td><b>Total</b></td>
             <td class="num"><b>147</b></td><td></td>
             <td class="num"><b>₹2,20,500</b></td><td></td>
             <td class="num"><b>₹2,20,500</b></td><td></td>
-            <td class="num"><b>₹0</b></td>
-            <td class="num"><b>₹2,20,500</b></td><td></td></tr></tbody></table><div class='pay'><b>Payments:</b> none received yet</div><div class='pay muted'>Nancy&#x27;s 11 hrs here are the CtrlS hours approved by Soham in RL on May 5 — no separate invoice needed.</div></div></td></tr><tr class="exp" onclick="tg('d3', this)">
+            <td class="num"><b>₹2,20,500</b></td>
+            <td class="num"><b>₹0</b></td><td></td></tr></tbody></table><div class='pay'><b>Payments:</b><ul><li>date TBC — <b>₹16,500</b> ⚠ <span class='muted'>unconfirmed</span> · ref: Payment against Nancy Phogat line item (11h CtrlS hours) <span class='muted'>Confirmed by Ranaq 17 Sep 2026 — covers only Nancy portion of this invoice; Rupali portion (₹2,04,000) still outstanding. Bank/UTR not yet confirmed.</span></li></ul></div><div class='pay muted'>Nancy&#x27;s 11 hrs here are the CtrlS hours approved by Soham in RL on May 5 — no separate invoice needed.</div></div></td></tr><tr class="exp" onclick="tg('d3', this)">
         <td><span class="caret">▸</span> <b>2026-27/004</b><br><span class="muted">implementation</span></td>
         <td>Milestones: contract signing, BPM signoff, UAT signoff<br><span class="muted">Moder Guatemala</span></td>
         <td>29 May 2026</td>
         <td class="num">₹17,50,000</td>
         <td class="num">₹17,50,000</td>
         <td class="num"><b>₹0</b></td>
-        <td class="num">110</td>
+        <td class="num">111</td>
         <td><span class="chip chip-green">PAID</span></td>
         <td class="small">—</td>
         <td class="small"><b>INV 004 now fully settled (₹6,00,000 + ₹9,75,000 net + ₹1,75,000 TDS = ₹17,50,000). Residual: confirm actual bank credit date/UTR when the statement arrives — currently based on Ranaq&#x27;s own email note, not a bank statement.</b></td>
@@ -372,7 +378,7 @@
         <td class="num">₹5,07,000</td>
         <td class="num">—</td>
         <td class="num"><b>₹5,07,000</b></td>
-        <td class="num">98</td>
+        <td class="num">99</td>
         <td><span class="chip chip-red">UNPAID</span></td>
         <td class="small">—</td>
         <td class="small"><b>Re-raised Jul 28 as DBX/2026-27/005 (replacement invoice) after DB&#x27;s system had auto-rejected the original as a duplicate (vendor code collision with another vendor, not a real dupe). DB confirmed receipt same day (automated &#x27;Invoice Received&#x27; notice). Awaiting AP processing/payment under Vineet reconciliation.</b></td>
@@ -409,7 +415,7 @@
         <td class="num">₹20,92,500</td>
         <td class="num">₹20,92,500</td>
         <td class="num"><b>₹0</b></td>
-        <td class="num">93</td>
+        <td class="num">94</td>
         <td><span class="chip chip-green">PAID</span></td>
         <td class="small">—</td>
         <td class="small"><b>INV 006 closed — 75% upfront fully paid. Remaining 25% (₹6,97,500) on End of Hypercare (~Jul 8 2026), tracked in pipeline.</b></td>
@@ -430,7 +436,7 @@
         <td class="num">₹6,66,692</td>
         <td class="num">—</td>
         <td class="num"><b>₹6,66,692</b></td>
-        <td class="num">75</td>
+        <td class="num">76</td>
         <td><span class="chip chip-red">UNPAID</span></td>
         <td class="small">ELR hold has historically applied to Ranaq + Barnamoy (see INV 002 discrepancies) — invoice raised despite that; payment release unconfirmed.</td>
         <td class="small"><b>Watch for AP response on ticket #AP01066968. Confirm whether ELR hold still applies now that invoice has been raised.</b></td>
@@ -465,46 +471,46 @@
         <td>June 2026<br><span class="muted">Staff augmentation — multiple DB projects (Rupali &amp; Nancy)</span></td>
         <td>06 Jul 2026</td>
         <td class="num">₹5,79,750</td>
-        <td class="num">—</td>
-        <td class="num"><b>₹5,79,750</b></td>
-        <td class="num">72</td>
-        <td><span class="chip chip-red">UNPAID</span></td>
+        <td class="num">₹2,85,000</td>
+        <td class="num"><b>₹2,94,750</b></td>
+        <td class="num">73</td>
+        <td><span class="chip chip-amber">PARTIAL</span></td>
         <td class="small">—</td>
         <td class="small"><b>Watch for AP response on ticket #AP01067887. Confirm ELR/other holds do not apply — Rupali/Nancy have not historically been on the ELR hold list (unlike Ranaq/Barnamoy).</b></td>
         </tr>
-        <tr id="d7" class="drow" style="display:none"><td colspan="10"><div class="dt"><table class="inner"><thead><tr><th>Resource</th><th>Hrs billed</th><th>Rate</th><th>₹ billed</th><th>Hrs approved</th><th>₹ approved</th><th>Hrs paid</th><th>₹ paid</th><th>₹ approved unpaid</th><th>Status / reason</th></tr></thead><tbody><tr class="short">
+        <tr id="d7" class="drow" style="display:none"><td colspan="10"><div class="dt"><table class="inner"><thead><tr><th>Resource</th><th>Hrs billed</th><th>Rate</th><th>₹ billed</th><th>Hrs approved</th><th>₹ approved</th><th>Hrs paid</th><th>₹ paid</th><th>₹ approved unpaid</th><th>Status / reason</th></tr></thead><tbody><tr class="ok">
                 <td><b>Rupali Papde</b></td>
                 <td class="num">196.5</td>
                 <td class="num">₹1,500</td>
                 <td class="num">₹2,94,750</td>
                 <td class="num">196.5</td>
                 <td class="num">₹2,94,750</td>
-                <td class="num">0</td>
+                <td class="num">196.5</td>
+                <td class="num">₹2,94,750</td>
                 <td class="num">—</td>
-                <td class="num"><b>₹2,94,750</b></td>
-                <td class="small">✓ fully approved</td></tr><tr class="short">
+                <td class="small">✓ fully approved</td></tr><tr class="ok">
                 <td><b>Nancy Phogat</b></td>
                 <td class="num">190</td>
                 <td class="num">₹1,500</td>
                 <td class="num">₹2,85,000</td>
                 <td class="num">190</td>
                 <td class="num">₹2,85,000</td>
-                <td class="num">0</td>
+                <td class="num">190</td>
+                <td class="num">₹2,85,000</td>
                 <td class="num">—</td>
-                <td class="num"><b>₹2,85,000</b></td>
                 <td class="small">✓ fully approved</td></tr><tr class="tot"><td><b>Total</b></td>
             <td class="num"><b>386.5</b></td><td></td>
             <td class="num"><b>₹5,79,750</b></td><td></td>
             <td class="num"><b>₹5,79,750</b></td><td></td>
-            <td class="num"><b>₹0</b></td>
-            <td class="num"><b>₹5,79,750</b></td><td></td></tr></tbody></table><div class='pay'><b>Payments:</b> none received yet</div><div class='pay muted'>First June 2026 staff aug invoice — covers Rupali (196.5h × ₹1,500 = ₹2,94,750) and Nancy (190h × ₹1,500 = ₹2,85,000) = ₹5,79,750 total. Animesh, Barnamoy, Zuha, Ranaq June hours not yet invoiced as of this sweep. Separately, a Jul 7 draft email (Nancy Phogat contract extension thread) notes DB has instructed Satori to move away from the staff-aug model toward Prime implementation work — Nancy&#x27;s extension is capped at 31-Jul-2026, no further extensions. Original PDF archived as text extract only (invoices/2026-27-008_StaffAug_Jun26_RupaliNancy.txt) — sweep agent&#x27;s mail tools couldn&#x27;t fetch raw PDF bytes.</div></div></td></tr><tr class="exp" onclick="tg('d8', this)">
+            <td class="num"><b>₹5,79,750</b></td>
+            <td class="num"><b>₹0</b></td><td></td></tr></tbody></table><div class='pay'><b>Payments:</b><ul><li>date TBC — <b>₹2,85,000</b> ⚠ <span class='muted'>unconfirmed</span> · ref: Payment against Nancy Phogat line item (190h June 2026) <span class='muted'>Confirmed by Ranaq 17 Sep 2026 — covers only Nancy portion of this invoice; Rupali portion (₹2,94,750) still outstanding. Bank/UTR not yet confirmed.</span></li></ul></div><div class='pay muted'>First June 2026 staff aug invoice — covers Rupali (196.5h × ₹1,500 = ₹2,94,750) and Nancy (190h × ₹1,500 = ₹2,85,000) = ₹5,79,750 total. Animesh, Barnamoy, Zuha, Ranaq June hours not yet invoiced as of this sweep. Separately, a Jul 7 draft email (Nancy Phogat contract extension thread) notes DB has instructed Satori to move away from the staff-aug model toward Prime implementation work — Nancy&#x27;s extension is capped at 31-Jul-2026, no further extensions. Original PDF archived as text extract only (invoices/2026-27-008_StaffAug_Jun26_RupaliNancy.txt) — sweep agent&#x27;s mail tools couldn&#x27;t fetch raw PDF bytes.</div></div></td></tr><tr class="exp" onclick="tg('d8', this)">
         <td><span class="caret">▸</span> <b>2026-27/009</b><br><span class="muted">implementation</span></td>
         <td>Final milestone: End of Hypercare (25%)<br><span class="muted">Kung Fu Kitchen (Cambodia)</span></td>
         <td>16 Jul 2026</td>
         <td class="num">₹6,97,500</td>
         <td class="num">₹6,97,500</td>
         <td class="num"><b>₹0</b></td>
-        <td class="num">62</td>
+        <td class="num">63</td>
         <td><span class="chip chip-green">PAID</span></td>
         <td class="small">—</td>
         <td class="small"><b>INV 009 closed — full ₹6,97,500 paid, net of 10% EDS held by Darwinbox per standard terms.</b></td>
@@ -519,7 +525,7 @@
         <td class="num">₹5,00,000</td>
         <td class="num">—</td>
         <td class="num"><b>₹5,00,000</b></td>
-        <td class="num">49</td>
+        <td class="num">50</td>
         <td><span class="chip chip-red">UNPAID</span></td>
         <td class="small">Kalyan committed Sep 15 to close this &#x27;between today and tomorrow&#x27; (Sep 15-16), citing his team being on an offsite the prior week as the reason for the delay. Both underlying collection-hold conditions (DB Finance receipt + Moder&#x27;s own payment advice) were already confirmed satisfied as of Sep 9. No bank credit yet.</td>
         <td class="small"><b>Watch for bank credit through Sep 16-17 per Kalyan&#x27;s own commitment window. If missed, re-chase directly referencing his Sep 15 promise.</b></td>
@@ -534,7 +540,7 @@
         <td class="num">₹14,50,382</td>
         <td class="num">₹14,50,382</td>
         <td class="num"><b>₹0</b></td>
-        <td class="num">44</td>
+        <td class="num">45</td>
         <td><span class="chip chip-green">PAID</span></td>
         <td class="small">—</td>
         <td class="small"><b>INV 012 closed — fully paid net of 10% TDS. Verify exact credit date/UTR against bank statement when available; verify ₹1,45,038.20 TDS credit in Form 26AS.</b></td>
@@ -549,7 +555,7 @@
         <td class="num">₹3,24,000</td>
         <td class="num">—</td>
         <td class="num"><b>₹3,24,000</b></td>
-        <td class="num">42</td>
+        <td class="num">43</td>
         <td><span class="chip chip-red">UNPAID</span></td>
         <td class="small">—</td>
         <td class="small"><b>Watch for AP ticket acknowledgement.</b></td>
